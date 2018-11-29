@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    android:background="@color/colorgray"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/linearLayoutPostID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imagePostID"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:src="@color/colorgray"
+            android:cropToPadding="false"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop" />
+        <TextView
+            android:id="@+id/namePostID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="35dp"
+            android:text="VName" />
+        <TextView
+            android:id="@+id/categoryPostID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:textStyle="italic"
+            android:textColor="@color/colorgray"
+            android:text="Category"
+            />
+        <TextView
+            android:id="@+id/locationPostID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Location"
+            android:textStyle="italic"
+            android:textColor="@color/colorAccent"
+            android:textSize="20dp"
+            />
+        <TextView
+            android:id="@+id/contactPostID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorPrimary"
+            android:text="Contact info"
+            android:textStyle="bold"
+            android:textSize="25dp"
+            />
+        <TextView
+            android:id="@+id/ratingPostID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Rating"
+            android:textSize="25dp"
+            android:textColor="@color/colorrate"/>
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>

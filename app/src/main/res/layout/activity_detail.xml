@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="8dp"
+    tools:context=".Activities.DetailActivity">
+
+    <TextView
+        android:id="@+id/detailVendorName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="35dp"
+        android:textStyle="bold"
+        android:text="Vname"/>
+
+    <ImageView
+        android:id="@+id/detailVendorImage"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:cropToPadding="false"
+        android:adjustViewBounds="true"
+        android:scaleType="centerCrop"
+        android:src="@color/colorgray"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:id="@+id/detailVendorCategory"
+                android:textAlignment="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Category"
+                android:textSize="30dp"
+                android:textStyle="italic" />
+
+
+            <TextView
+                android:id="@+id/detailVendorRating"
+                android:textAlignment="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="32dp"
+                android:textStyle="normal"
+                android:text="rating"
+                android:textColor="@color/colorrate"
+                />
+
+            <TextView
+                android:id="@+id/detailVendorContact"
+                android:textAlignment="center"
+                android:text="contact"
+                android:textSize="25dp"
+                android:textColor="@color/colorPrimaryDark"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/detailVendorLocation"
+                android:textAlignment="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textStyle="italic"
+                android:text="Location"/>
+
+            <TextView
+                android:id="@+id/detailVendorDistance"
+                android:textAlignment="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="25dp"
+                android:text="Distance"
+                android:textColor="@color/colordist"/>
+
+            <ScrollView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/cardview_shadow_start_color"
+                android:padding="8dp">
+
+                <TextView
+                    android:id="@+id/detailVendorDescription"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Description"
+                    android:textAlignment="center"
+                    android:textSize="20dp"
+                    android:textStyle="normal" />
+            </ScrollView>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

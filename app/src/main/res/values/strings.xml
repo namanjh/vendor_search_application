@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Surf</string>
+    <string name="login_button">Login</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="welcome_note">Welcome To</string>
+    <string name="welcome">"Location Based Search App "</string>
+    <string name="login_welcome">Enter Your Credentials</string>
+    <string name="signup_welcome">"Enter Your Details "</string>
+    <string name="forgot_credential">Forgot Password???</string>
+</resources>
