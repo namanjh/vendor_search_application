@@ -14,11 +14,4 @@ Nearby Products and their vendors availability to the user.
 Users can find any local stores where a product is available within certain radius.
 Users can find individual people providing any kind of service. Eg. Cook, Cleaner, Plumber, Tutor, Guard, etc. 
 Socialization among the people is developed.
-Vendors will be provided with analytics tools to analyze their business status.
-
-
-This Application is a team effort.
-Team Members are: 
-1. Narendra Nath Jha - Developer
-2. Bishwadeep Chaudhary - UI design + Future Work 
-3. Sajan Nath Yogi - Database + Presentation
+Vendors will be provided with analytics tools to analyze their business status.(Not completed yet.)
